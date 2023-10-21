@@ -1,5 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 import Shirt from "../Shirt/Shirt";
+import './Home.css'
 
 const Home = () => {
     const tShirts = useLoaderData();

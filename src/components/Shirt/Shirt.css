@@ -1,0 +1,16 @@
+.display-shirt{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.display-shirt img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.display-shirt button{
+    width: 100%;
+}
