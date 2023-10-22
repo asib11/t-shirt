@@ -1,0 +1,9 @@
+.cart{
+    width:20em;
+}
+.cart-style{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}

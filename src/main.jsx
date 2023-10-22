@@ -8,6 +8,9 @@ import {
 } from "react-router-dom";
 import Main from './components/Layout/Main.jsx';
 import Home from './components/Home/Home.jsx';
+import Review from './components/Order/Review.jsx';
+import Contact from './components/Contact/Contact.jsx';
+import About from './components/About/About.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +21,18 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home></Home>,
         loader: () => fetch('TShirt.json')
+      },
+      {
+        path: '/review',
+        element: <Review></Review>,
+      },
+      {
+        path: 'contact',
+        element: <Contact></Contact>,
+      },
+      {
+        path: '/about',
+        element: <About></About>,
       },
 
     ]
