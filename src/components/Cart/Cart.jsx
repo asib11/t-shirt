@@ -21,3 +21,17 @@ Cart.propTypes ={
 }
 
 export default Cart;
+
+/*
+* CONDITIONAL RENDARING
+1. use id else to set a variable that will contain an element, components
+2. ternary operator: condition ? 'for true': 'false'
+3. logical && : (if the condition is true then the next thing will be displayed)
+4. logical || : (if the condition is false then the next thing will be displayed)
+ * /
+
+/**
+ * CONDITIONAL CSS
+ * 1.use ternay
+ * 2. ternary inside template string
+*/
